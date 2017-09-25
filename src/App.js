@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import {randomAction, Doubloons, arrCoins, reducer} from './components/reducer'
 import { connect } from 'react-redux';
+//reducer is in components folder which is prbobaly the wrong place
 
 class App extends Component {
 

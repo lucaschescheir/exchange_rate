@@ -12,17 +12,17 @@ import { createStore } from 'redux';
 //     payload:
 export const randomAction = {
     type: 'RANDOM',
-    payload: 1,
+
 };
 
 export const Doubloons={
     type:'ADD',
-    payload: 1
+
 }
 
 export const arrCoins = {
     type: 'SUBTRACT',
-    payload: 1,
+
 };
 
 
@@ -51,9 +51,9 @@ export function reducer(state, action) {
 return state
 }
 export const store = createStore(reducer, {
-    rate: 6,
+    rate: 0,
     arrValue: 0,
-    doubValue: 20
+    doubValue: 40
 },
 
     window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
